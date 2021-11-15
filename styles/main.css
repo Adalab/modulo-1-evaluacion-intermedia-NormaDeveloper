@@ -54,4 +54,8 @@
     padding: 20px 30px;
     box-sizing: border-box;
   }
+
+  .h1 {
+    font-size: 40px;
+  }
 }
