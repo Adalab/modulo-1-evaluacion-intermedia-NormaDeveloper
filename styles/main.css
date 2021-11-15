@@ -19,7 +19,11 @@
   padding: 10px 0px 13px;
   width: 155px;
   justify-content: center;
+}
+
+.a-nav {
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 .blog {
