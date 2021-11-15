@@ -6,4 +6,36 @@
 
 .header {
   position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  padding: 10px 0px 13px;
+  width: 155px;
+  justify-content: center;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.blog {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.contact {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 155px;
+  margin-top: 10px;
+}
+
+.main {
 }
