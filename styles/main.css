@@ -14,26 +14,17 @@
   background-color: white;
 }
 
-.nav-links {
+.menu {
   display: flex;
-  padding: 10px 0px 13px;
-  width: 155px;
-  justify-content: center;
+  list-style: none;
 }
 
-.a-nav {
-  color: #4a4a4a;
+.menu-link {
   text-decoration: none;
-}
-
-.blog {
-  margin-right: 10px;
+  color: #4a4a4a;
   text-transform: uppercase;
-}
-
-.contact {
-  margin-left: 10px;
-  text-transform: uppercase;
+  padding: 10px 10px 13px;
+  display: block;
 }
 
 .logo {
@@ -51,6 +42,13 @@
   color: #ffffff;
 }
 
+.title {
+  text-transform: capitalize;
+  word-spacing: 100vw;
+  text-align: center;
+  font-size: 30px;
+}
+
 @media all and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -59,7 +57,7 @@
     box-sizing: border-box;
   }
 
-  .h1 {
+  .title {
     font-size: 40px;
   }
 }
