@@ -1,0 +1,16 @@
+// fonts
+// $font-main: "Roboto", sans-serif;
+
+// colors
+// $color-main: ;
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 1200) {
+    @content;
+  }
+}
